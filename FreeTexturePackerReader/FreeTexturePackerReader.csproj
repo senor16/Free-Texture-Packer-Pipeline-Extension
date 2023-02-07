@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>FreeTexturePackerReader</PackageId>
+    <Authors>Sesso Kosga</Authors>
+    <Description>A lib for importing Free Texture Packer spritesheets into Monogame through the
+      content pipeline extension.</Description>
+    <PackageTags>C#,monogame, free texture packer, loader, spritesheet loader,texture, atlas,
+      texture-packing, packing, packer</PackageTags>
+    <RepositoryUrl>https://github.com/senor16/Free-Texture-Packer-Reader</RepositoryUrl>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
