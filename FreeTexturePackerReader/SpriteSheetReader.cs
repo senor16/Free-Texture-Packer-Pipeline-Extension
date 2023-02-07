@@ -40,8 +40,12 @@ public class SpriteSheetReader : ContentTypeReader<SpriteSheet>
                 // pivot
                 sprite.pivot = s.pivot;
 
+
                 if (sprite.rotated)
+                {
                     sprite.sourceRect = new Rectangle(sprite.frame.X, sprite.frame.Y, sprite.frame.Height, sprite.frame.Width);
+                    sprite.rotation = MathHelper.ToRadians(-90);
+                }
                 else
                     sprite.sourceRect = new Rectangle(sprite.frame.X, sprite.frame.Y, sprite.frame.Width, sprite.frame.Height);
                 sprite.origin = new Vector2(sprite.pivot.X * sprite.frame.Width, sprite.pivot.Y * sprite.frame.Width);

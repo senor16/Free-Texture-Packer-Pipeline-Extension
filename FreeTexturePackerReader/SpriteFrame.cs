@@ -17,4 +17,5 @@ public class SpriteFrame
     public Texture2D texture { get; set; }
     public bool rotated { get; set; }
     public bool trimmed { get; set; }
+    public float rotation {get;set;}
 }

@@ -10,6 +10,12 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:..\bin\Debug\net6.0\FreeTexturePackerPipeline.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin chess.spritesheet
+/importer:SpriteSheetImporter
+/processor:SpriteSheetProcessor
+/build:chess.spritesheet
 
