@@ -2,7 +2,7 @@
 
 A Monogame content pipeline extension to load spritesheets generated from [Free Texture Packer](https://free-tex-packer.com) into [Monogame](https://monogame.net)
 
-*Read in another language : [English](Readme.md), [Français](Readme.fr.md)*
+<!-- *Read in another language : [English](Readme.md), [Français](Readme.fr.md)* -->
 
 ## Summary
 **[Getting started](#getting-started)**  
@@ -11,6 +11,11 @@ A Monogame content pipeline extension to load spritesheets generated from [Free 
 [Using Free Texture Packer to create a spritesheet](#using-free-texture-packer-to-create-a-spritesheet)  
 [Adding the extension to the content pipeline](#adding-the-extension-to-the-content-pipeline)  
 [Loading the spritesheet and using it in a monogame project](#loading-the-spritesheet-and-using-it-in-a-monogame-project)
+**[Contributing](#contributing)**  
+**[Versioning](#versioning)**  
+**[Authors](#authors)**  
+**[License](#license)**  
+**[Acknowledgments](#acknowledgments)**  
 
 ## Getting started 
 
