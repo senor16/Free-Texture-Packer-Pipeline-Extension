@@ -119,3 +119,29 @@ You need two nuget packages : `FreeTexturePackerReader` and `FreeTexturePackerPi
 8. Run the game
 
 You'll find the sample project in the `SampleGame` folder
+
+## Contributing
+
+Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Sesso Kosga** - *Initial work* - [senor16](https://github.com/senor16)
+
+## License
+
+This project is licensed under the MIT License - see the [licence.md](licence.md) file for details
+
+## Acknowledgments
+
+Thanks to :
+* [Ragath](https://github.com/Ragath) for his suggestion to implement the [lib I had made](https://github.com/senor16/Free-Texture-Packer-Loader) into this Monogame Pipeline extension
+    You made me discover a part of the monogame framework that I did'nt knew.
+* **Matt Weber** for his toturial on [How to extend Monogame's content pipeline](https://badecho.com/index.php/2022/08/17/extending-pipeline/)
+    Your tutorial helped me to deepen my understanding of the monogame content pipeline
+* **RB Whitaker's Wiki** for his tutorial on [Building a content pipeline extension](https://rbwhitaker.com/tutorials/xna/content-pipeline/extending/part-1/)
+    Your tutorial helped to fix a bug that has caused me terrible headache

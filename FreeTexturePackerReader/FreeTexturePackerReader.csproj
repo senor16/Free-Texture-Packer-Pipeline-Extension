@@ -7,13 +7,16 @@
       content pipeline extension.</Description>
     <PackageTags>C#,monogame, free texture packer, loader, spritesheet loader,texture, atlas,
       texture-packing, packing, packer</PackageTags>
-    <RepositoryUrl>https://github.com/senor16/Free-Texture-Packer-Reader</RepositoryUrl>
+    <RepositoryUrl>https://github.com/senor16/Free-Texture-Packer-Pipeline-Extension/tree/main/FreeTexturePackerReader</RepositoryUrl>
     <PackageVersion>1.0.0</PackageVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile> 
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+    <None Include="Readme.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
