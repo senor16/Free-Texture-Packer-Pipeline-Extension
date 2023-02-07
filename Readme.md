@@ -109,7 +109,7 @@ You need two nuget packages : `FreeTexturePackerReader` and `FreeTexturePackerPi
 4. Got to `Build`>`Build` or press `F6`
 5. Open your `Game.cs` and add this using at the top
 
-        using using FreeTexturePackerReader;
+        using FreeTexturePackerReader;
 6. Load the spritesheet
     In the `LoadContent` method, add : 
 
