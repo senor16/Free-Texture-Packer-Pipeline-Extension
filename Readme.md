@@ -135,7 +135,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Sesso Kosga** - *Initial work* - [senor16](https://github.com/senor16)
+* **Sesso Kosga** - *Initial work* - [sessokosga](https://github.com/sessokosga)
 
 ## License
 
